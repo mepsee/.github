@@ -10,9 +10,9 @@ High-level Styling Language, for Web and Native.
 
 ### Modular Stdlib Design
 
-in CSS, font style, box style, text layout, and more concerns can be mixed easily. Managing this complexity is important. so we categorize it by concerns.
+In CSS, font style, box style, text layout, and more concerns can be mixed easily. Managing this complexity is important. so we categorize it by concerns.
 
-And actually, CSS describes properties as a list of separated modules. But why do Web developers access them without namespacing?
+Also, CSS describes properties as a list of separated modules. But why do Web developers access them without namespacing?
 
 <table>
 <tbody>
@@ -49,6 +49,10 @@ test {
 
 TBD
 
-## Why is the name mepsee?
+### Strong Codegen Integration
 
-We caught up on the naming idea from 맵시(meaning *style* in Korean); its actual Romanization is "maepsi", but "mepsee" serves similar pronunciation and seems great.
+Selecting styles from code appears very frequently. Type-safe selection can bring us to the next step on DX.
+
+## Why is the name `mepsee`?
+
+We caught up on the naming idea from 맵시(meaning *style* in Korean); its actual Romanization is `maepsi`, but `mepsee` serves similar pronunciation and seems great.
